@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ilma's Organic Henna | Pure Henna. Pure Beauty.</title>
+
+<meta name="description" content="Premium organic henna cones in Bangladesh. Freshly prepared, chemical-free, skin-friendly henna with rich dark stain. Nationwide delivery available.">
+
+<meta name="keywords" content="Organic Henna Bangladesh, Henna Cone, Mehendi, Eid Henna, Wedding Henna, Ilma's Organic Henna">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--maroon:#7A1F2B;
+--beige:#F8F5F2;
+--white:#FFFFFF;
+--text:#444;
+--radius:18px;
+--shadow:0 15px 35px rgba(0,0,0,0.08);
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#fff;
+color:var(--text);
+line-height:1.7;
+overflow-x:hidden;
+}
+
+.container{
+width:min(1100px,92%);
+margin:auto;
+}
+
+section{
+padding:80px 0;
+}
+
+h1,h2,h3,h4{
+font-family:'Cormorant Garamond',serif;
+color:var(--maroon);
+line-height:1.1;
+}
+
+.btn{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+padding:14px 28px;
+border-radius:999px;
+font-weight:600;
+text-decoration:none;
+transition:.3s;
+cursor:pointer;
+}
+
+.btn-primary{
+background:var(--maroon);
+color:#fff;
+}
+
+.btn-primary:hover{
+transform:translateY(-2px);
+opacity:.95;
+}
+
+.btn-outline{
+border:2px solid var(--maroon);
+color:var(--maroon);
+background:white;
+}
+
+.btn-outline:hover{
+background:var(--maroon);
+color:white;
+}
+
+.section-title{
+font-size:48px;
+text-align:center;
+margin-bottom:20px;
+}
+
+.section-sub{
+text-align:center;
+max-width:700px;
+margin:auto;
+margin-bottom:50px;
+}
+
+.card{
+background:#fff;
+border-radius:var(--radius);
+box-shadow:var(--shadow);
+padding:24px;
+}
+
+.fade-up{
+animation:fadeUp .9s ease;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* HERO */
+
+.hero{
+padding:100px 0;
+position:relative;
+overflow:hidden;
+}
+
+.hero::before{
+content:"❀";
+position:absolute;
+left:5%;
+top:15%;
+font-size:80px;
+opacity:.08;
+color:var(--maroon);
+}
+
+.hero::after{
+content:"❀";
+position:absolute;
+right:5%;
+bottom:10%;
+font-size:80px;
+opacity:.08;
+color:var(--maroon);
+}
+
+.logo{
+font-family:'Cormorant Garamond',serif;
+font-size:42px;
+font-weight:700;
+text-align:center;
+color:var(--maroon);
+margin-bottom:10px;
+}
+
+.tagline{
+text-align:center;
+color:#666;
+margin-bottom:35px;
+}
+
+.hero-grid{
+display:grid;
+gap:50px;
+align-items:center;
+}
+
+.hero-content{
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+max-width:650px;
+margin:auto;
+margin-bottom:25px;
+}
+
+.price-tag{
+display:inline-block;
+background:var(--beige);
+padding:16px 30px;
+border-radius:999px;
+font-size:24px;
+font-weight:700;
+color:var(--maroon);
+margin-bottom:25px;
+}
+
+.hero-buttons{
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.product-mockup{
+display:flex;
+justify-content:center;
+}
+
+.mockup{
+width:280px;
+height:420px;
+background:linear-gradient(180deg,#ffffff,#f8f5f2);
+border-radius:30px;
+box-shadow:var(--shadow);
+position:relative;
+overflow:hidden;
+}
+
+.mockup::before{
+content:"Organic Henna";
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-family:'Cormorant Garamond',serif;
+font-size:40px;
+color:var(--maroon);
+text-align:center;
+}
+
+/* FEATURES */
+
+.features{
+background:var(--beige);
+}
+
+.features-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.feature{
+text-align:center;
+}
+
+.feature span{
+font-size:32px;
+display:block;
+margin-bottom:10px;
+color:var(--maroon);
+}
+
+/* ABOUT */
+
+.about{
+text-align:center;
+}
+
+.about p{
+max-width:800px;
+margin:auto;
+}
+
+/* PRODUCT */
+
+.product-card{
+max-width:420px;
+margin:auto;
+text-align:center;
+}
+
+.product-price{
+font-size:42px;
+font-weight:700;
+color:var(--maroon);
+margin:15px 0;
+}
+
+/* DELIVERY */
+
+.delivery{
+background:var(--beige);
+}
+
+.delivery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.delivery-card{
+text-align:center;
+}
+
+.delivery-price{
+font-size:40px;
+color:var(--maroon);
+font-weight:700;
+margin:15px 0;
+}
+
+/* PAYMENT */
+
+.payment{
+text-align:center;
+}
+
+.payment-number{
+font-size:34px;
+font-weight:700;
+color:var(--maroon);
+margin:20px 0;
+}
+
+/* REVIEWS */
+
+.reviews-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.review-avatar{
+width:70px;
+height:70px;
+border-radius:50%;
+background:var(--beige);
+margin:auto;
+margin-bottom:15px;
+}
+
+.stars{
+color:#ffb400;
+margin-bottom:10px;
+}
+
+/* FAQ */
+
+.faq-item{
+background:white;
+border:1px solid #eee;
+border-radius:14px;
+margin-bottom:15px;
+overflow:hidden;
+}
+
+.faq-question{
+padding:18px;
+font-weight:600;
+cursor:pointer;
+color:var(--maroon);
+}
+
+.faq-answer{
+padding:0 18px 18px;
+}
+
+/* CTA */
+
+.final-cta{
+background:var(--maroon);
+color:white;
+text-align:center;
+}
+
+.final-cta h2{
+color:white;
+font-size:52px;
+margin-bottom:20px;
+}
+
+.final-cta p{
+max-width:700px;
+margin:auto;
+margin-bottom:25px;
+}
+
+.final-cta .btn{
+background:white;
+color:var(--maroon);
+}
+
+/* FOOTER */
+
+footer{
+padding:50px 0;
+text-align:center;
+background:#111;
+color:#ddd;
+}
+
+footer h3{
+color:white;
+margin-bottom:10px;
+}
+
+footer p{
+margin:8px 0;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.section-title{
+font-size:38px;
+}
+
+.final-cta h2{
+font-size:40px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+
+<section class="hero fade-up">
+
+<div class="container">
+
+<div class="logo">
+Ilma's Organic Henna
+</div>
+
+<div class="tagline">
+Pure Henna. Pure Beauty.
+</div>
+
+<div class="hero-grid">
+
+<div class="hero-content">
+
+<h1>Experience the Beauty of Pure Organic Henna</h1>
+
+<p>
+Freshly prepared organic henna for rich color, smooth application,
+and naturally beautiful results.
+</p>
+
+<div class="price-tag">
+Only ৳120 per Henna Cone
+</div>
+
+<div class="hero-buttons">
+
+<a href="#" class="btn btn-primary">
+Order on Facebook
+</a>
+
+<a href="#" class="btn btn-outline">
+Message Us Now
+</a>
+
+</div>
+
+</div>
+
+<div class="product-mockup">
+
+<div class="mockup"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
+
+<div class="container">
+
+<h2 class="section-title">
+Why Choose Us
+</h2>
+
+<div class="features-grid">
+
+<div class="card feature">
+<span>✓</span>
+<h3>100% Organic Ingredients</h3>
+</div>
+
+<div class="card feature">
+<span>✓</span>
+<h3>No Harmful Chemicals</h3>
+</div>
+
+<div class="card feature">
+<span>✓</span>
+<h3>Rich Dark Stain</h3>
+</div>
+
+<div class="card feature">
+<span>✓</span>
+<h3>Freshly Prepared</h3>
+</div>
+
+<div class="card feature">
+<span>✓</span>
+<h3>Skin-Friendly Formula</h3>
+</div>
+
+<div class="card feature">
+<span>✓</span>
+<h3>Premium Quality</h3>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about">
+
+<div class="container">
+
+<h2 class="section-title">
+About Ilma's Organic Henna
+</h2>
+
+<p>
+At Ilma's Organic Henna, we believe beauty should come directly from nature.
+Every cone is prepared with carefully selected ingredients to deliver a safe,
+smooth, and beautifully rich henna experience. Our mission is to provide
+high-quality organic henna that customers can trust.
+</p>
+
+</div>
+
+</section>
+
+<!-- PRODUCT -->
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">
+Our Product
+</h2>
+
+<div class="card product-card">
+
+<h3>Organic Henna Cone</h3>
+
+<div class="product-price">
+৳120
+</div>
+
+<p>
+Fresh organic henna cone made with carefully selected ingredients
+for a smooth application and rich natural stain.
+</p>
+
+<br>
+
+<a href="#" class="btn btn-primary">
+Order Now
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- DELIVERY -->
+
+<section class="delivery">
+
+<div class="container">
+
+<h2 class="section-title">
+Delivery Charges
+</h2>
+
+<div class="delivery-grid">
+
+<div class="card delivery-card">
+
+<h3>Inside Dhaka</h3>
+
+<div class="delivery-price">
+৳60
+</div>
+
+<p>Delivery Charge</p>
+
+</div>
+
+<div class="card delivery-card">
+
+<h3>Outside Dhaka</h3>
+
+<div class="delivery-price">
+৳100
+</div>
+
+<p>Delivery Charge</p>
+
+</div>
+
+</div>
+
+<p style="text-align:center;margin-top:30px;font-weight:600;">
+Nationwide Delivery Available
+</p>
+
+</div>
+
+</section>
+
+<!-- PAYMENT -->
+
+<section class="payment">
+
+<div class="container">
+
+<h2 class="section-title">
+Payment Options
+</h2>
+
+<p>
+bKash • Nagad • Cash on Delivery (COD)
+</p>
+
+<div class="payment-number">
+01876505581
+</div>
+
+<p>
+For advance payment, please send payment to the above bKash or Nagad number
+and share your transaction ID through Facebook Messenger.
+</p>
+
+</div>
+
+</section>
+
+<!-- REVIEWS -->
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">
+Happy Customers
+</h2>
+
+<div class="reviews-grid">
+
+<div class="card">
+
+<div class="review-avatar"></div>
+
+<div class="stars">★★★★★</div>
+
+<p>
+Beautiful dark stain and very easy to apply.
+Highly recommended for Eid.
+</p>
+
+<strong>— Nusrat J.</strong>
+
+</div>
+
+<div class="card">
+
+<div class="review-avatar"></div>
+
+<div class="stars">★★★★★</div>
+
+<p>
+The cone was fresh and the color lasted for days.
+Loved the quality.
+</p>
+
+<strong>— Sadia R.</strong>
+
+</div>
+
+<div class="card">
+
+<div class="review-avatar"></div>
+
+<div class="stars">★★★★★</div>
+
+<p>
+Perfect for wedding events.
+Natural ingredients and smooth texture.
+</p>
+
+<strong>— Mim A.</strong>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="delivery">
+
+<div class="container">
+
+<h2 class="section-title">
+Frequently Asked Questions
+</h2>
+
+<div class="faq-item">
+<div class="faq-question">
+Is the henna 100% organic?
+</div>
+<div class="faq-answer">
+Yes. We use carefully selected organic ingredients without harmful chemicals.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">
+How long does the stain last?
+</div>
+<div class="faq-answer">
+Typically 1–2 weeks depending on skin type and aftercare.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">
+Do you deliver outside Dhaka?
+</div>
+<div class="faq-answer">
+Yes. We provide nationwide delivery across Bangladesh.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">
+What payment methods do you accept?
+</div>
+<div class="faq-answer">
+bKash, Nagad and Cash on Delivery (COD).
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- FINAL CTA -->
+
+<section class="final-cta">
+
+<div class="container">
+
+<h2>
+Bring Nature's Beauty to Your Hands
+</h2>
+
+<p>
+Order your organic henna cone today and enjoy a naturally beautiful stain.
+</p>
+
+<a href="#" class="btn">
+Order via Facebook
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container">
+
+<h3>Ilma's Organic Henna</h3>
+
+<p>Pure Henna. Pure Beauty.</p>
+
+<p>Contact: 01876505581</p>
+
+<p>bKash | Nagad | Cash on Delivery</p>
+
+<p>Dhaka ৳60 | Outside Dhaka ৳100</p>
+
+<p>Facebook Page Link Here</p>
+
+<p>
+© 2026 Ilma's Organic Henna. All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+
+</body>
+  </html>
